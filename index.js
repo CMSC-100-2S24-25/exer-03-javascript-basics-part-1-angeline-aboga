@@ -29,15 +29,11 @@ function validatePassword(string1, string2) {
         } 
         
         for (let a = 0; a < 10; a++) {
-            // console.log(string1[x]);
-            // console.log(numbers[a])
-            // console.log("not a number");
             if (string1[x] == numbers[a]) {
                 num++;
                 upper--;
                 break;
             } 
-            // console.log(numbers[a]);
         }
 
         x++;
